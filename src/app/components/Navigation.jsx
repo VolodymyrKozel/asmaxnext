@@ -7,32 +7,32 @@ const Navigation = () => {
         aria-label="Close menu button"
       >
         <svg className="menu-btn-icon" width="28" height="28">
-          <use href="./img/icons.svg#icon-close"></use>
+          <use href="icons.svg#icon-close"></use>
         </svg>
       </button>
       <ul className="menu-list">
         <li className="menu-item">
-          <a className="menu-link header-link" href="#">
+          <a className="menu-link header-link" href="onas">
             O nas
           </a>
         </li>
         <li className="menu-item">
-          <a className="menu-link header-link" href="#">
+          <a className="menu-link header-link" href="uslugi">
             USŁUGI
           </a>
         </li>
         <li className="menu-item">
-          <a className="menu-link header-link" href="#">
+          <a className="menu-link header-link" href="/flota">
             Flota
           </a>
         </li>
         <li className="menu-item">
-          <a className="menu-link header-link" href="#">
+          <a className="menu-link header-link" href="/wspolpracujznami">
             Współpracuj z nami
           </a>
         </li>
         <li className="menu-item">
-          <a className="menu-link header-link" href="#">
+          <a className="menu-link header-link" href="/kontakt">
             Kontakt
           </a>
         </li>

@@ -6,7 +6,7 @@ import phone from "/public/phone.svg";
 import "./Header.css";
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <div className="container header-container">
         <Link className="logo-link" href="\">
           <Image
@@ -15,6 +15,15 @@ const Header = () => {
             alt="AS MAX GROUP furniture assembly"
           />
         </Link>
+        <button
+          class="menu-btn js-open-menu"
+          type="button"
+          aria-label="Open menu button"
+        >
+          <svg class="menu-btn-icon" width="28" height="28">
+            <use href="icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
         <Navigation />
         <div className="right-side">
           <ul className="social-list">
