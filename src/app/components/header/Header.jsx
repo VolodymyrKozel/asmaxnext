@@ -16,11 +16,10 @@ const Header = () => {
           />
         </Link>
         <button
-          class="menu-btn js-open-menu"
+          className="menu-btn js-open-menu"
           type="button"
-          aria-label="Open menu button"
-        >
-          <svg class="menu-btn-icon" width="28" height="28">
+          aria-label="Open menu button">
+          <svg className="menu-btn-icon" width="28" height="28">
             <use href="icons.svg#icon-hamburger"></use>
           </svg>
         </button>
@@ -33,8 +32,7 @@ const Header = () => {
                 href="https://www.facebook.com/MaxAssemblyGroupPolska"
                 target="_blank"
                 rel="noopener noreferrer"
-                arial-label="facebook"
-              >
+                arial-label="facebook">
                 <svg className="svg-icon" width="24" height="24">
                   <use href="icons.svg#icon-facebook" />
                 </svg>
@@ -46,8 +44,7 @@ const Header = () => {
                 href="https://www.linkedin.com/company/as-max-group/"
                 target="_blank"
                 rel="noopener noreferrer"
-                arial-label="linkedin"
-              >
+                arial-label="linkedin">
                 <svg className="svg-icon" width="24" height="24">
                   <use href="icons.svg#icon-linkedin" />
                 </svg>
@@ -59,8 +56,7 @@ const Header = () => {
                 href="https://www.instagram.com/as_max_group"
                 target="_blank"
                 rel="noopener noreferrer"
-                arial-label="instagram"
-              >
+                arial-label="instagram">
                 <svg className="svg-icon" width="24" height="24">
                   <use href="icons.svg#icon-instagram"></use>
                 </svg>

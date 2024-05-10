@@ -1,11 +1,16 @@
+import Link from "next/link";
+
 const Navigation = () => {
   return (
+    /*     <nav className="nav is-open js-menu-container">
+      <Link href={'/products'}>Products</Link>
+
+    </nav> */
     <nav className="nav is-open js-menu-container">
       <button
         className="menu-btn-close js-close-menu"
         type="button"
-        aria-label="Close menu button"
-      >
+        aria-label="Close menu button">
         <svg className="menu-btn-icon" width="28" height="28">
           <use href="icons.svg#icon-close"></use>
         </svg>
